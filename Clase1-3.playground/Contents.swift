@@ -20,4 +20,4 @@ class Empleado{
 let godin = Empleado()
 godin.sueldo = 300
 
-https://github.com/crashbit/iosLab
+
