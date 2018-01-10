@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  TableView
 //
-//  Created by Germán Santos Jaimes on 1/8/18.
+//  Created by Germán Santos Jaimes on 1/9/18.
 //  Copyright © 2018 iOS Develpment Lab. All rights reserved.
 //
 
@@ -15,16 +15,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        // Override point for customization after application launch.
         
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.makeKeyAndVisible()
         
-        let viewcontroller = ViewController()
+        let tableviewcontroller = TableViewController()
         
-        window?.rootViewController = UINavigationController(rootViewController: viewcontroller)
+        window?.rootViewController = UINavigationController(rootViewController: tableviewcontroller)
         
         
-        // Override point for customization after application launch.
         return true
     }
 

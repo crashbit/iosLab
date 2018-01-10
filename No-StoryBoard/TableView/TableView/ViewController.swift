@@ -2,40 +2,44 @@
 //  ViewController.swift
 //  TableView
 //
-//  Created by Germán Santos Jaimes on 1/8/18.
+//  Created by Germán Santos Jaimes on 1/9/18.
 //  Copyright © 2018 iOS Develpment Lab. All rights reserved.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
+class TableViewController: UITableViewController{
 
-    let textLabel: UILabel = {
-        var label = UILabel()
-        label.text = "Esto es un Texto"
-        label.font = UIFont.systemFont(ofSize: 26)
-        label.textColor = UIColor.white
-        label.translatesAutoresizingMaskIntoConstraints = false
-        return label
-    }()
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = UIColor.red
-        view.addSubview(textLabel)
+        // Do any additional setup after loading the view, typically from a nib.
+        tableView.register(UITableViewCell.self, forCellReuseIdentifier: "celda")
+
+        navigationItem.title = "esta es una tabla"
+    }
+    
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 5
+    }
+    
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "celda", for: indexPath)
+        if indexPath.row % 2 == 0{
+            cell.backgroundColor = UIColor.lightGray
+        }else{
+            cell.backgroundColor = UIColor.darkGray
+            cell.textLabel?.textColor = UIColor.white
+        }
         
-        textLabel.heightAnchor.constraint(equalToConstant: 140).isActive = true
-        textLabel.widthAnchor.constraint(equalToConstant: 240).isActive = true
-        textLabel.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
-        textLabel.topAnchor.constraint(equalTo: view.topAnchor, constant: 40).isActive = true
-        
+        cell.textLabel?.text = "testing"
+        return cell
+    }
+    
+    override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 80
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
+    
 
 }
 
