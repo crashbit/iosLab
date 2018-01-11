@@ -10,26 +10,35 @@ import UIKit
 
 class Test2ViewController: UIViewController {
 
+    let loginButton: UIButton = {
+        let button = UIButton(type: .system)
+        button.setTitle("Login", for: .normal)
+        button.backgroundColor = UIColor.green
+        button.layer.cornerRadius = 5
+        button.titleLabel?.font = UIFont.boldSystemFont(ofSize: 14)
+        button.setTitleColor(.white, for: .normal)
+        
+        button.addTarget(self, action: #selector(handleLogin), for: .touchUpInside)
+        button.translatesAutoresizingMaskIntoConstraints = false
+        button.isEnabled = true
+        
+        return button
+    }()
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        view.backgroundColor = UIColor.lightGray
+        navigationItem.title = "dos"
+        view.addSubview(loginButton)
+        
+        loginButton.heightAnchor.constraint(equalToConstant: 140).isActive = true
+        loginButton.widthAnchor.constraint(equalToConstant: 240).isActive = true
+        loginButton.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
+        loginButton.topAnchor.constraint(equalTo: view.topAnchor, constant: 40).isActive = true
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    @objc func handleLogin(){
+        print("saludos")
     }
-    */
-
 }
