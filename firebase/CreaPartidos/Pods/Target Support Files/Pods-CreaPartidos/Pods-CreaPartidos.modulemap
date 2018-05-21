@@ -1,0 +1,6 @@
+framework module Pods_CreaPartidos {
+  umbrella header "Pods-CreaPartidos-umbrella.h"
+
+  export *
+  module * { export * }
+}
