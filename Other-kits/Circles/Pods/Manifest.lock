@@ -1,0 +1,16 @@
+PODS:
+  - MKRingProgressView (1.2)
+
+DEPENDENCIES:
+  - MKRingProgressView
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - MKRingProgressView
+
+SPEC CHECKSUMS:
+  MKRingProgressView: 023e2241d1ef23b05cb9893aa4878395861e3902
+
+PODFILE CHECKSUM: 22bdc608869b3d6ed85a48e5b384b7f118c46531
+
+COCOAPODS: 1.5.0

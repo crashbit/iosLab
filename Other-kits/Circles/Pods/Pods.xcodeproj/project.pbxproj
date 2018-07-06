@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0598DA96FC09E118A4D16659C0666659 /* MKRingProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C67A26B418CC889344A12A1131C7BD /* MKRingProgressView.swift */; };
+		1AFD8402A99F9C3BA0110EA4E61ADEF5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		1C0BAD0FF7DC5A01B5121C632FF88E44 /* Pods-Circles-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 314569102C488FF20C64BBC3FCD22206 /* Pods-Circles-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5175977DA8C723FA04FCA4248841095A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		BD381550C3C1079B42A2A11F6DD0019F /* MKRingProgressView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C8D01CBA495590D1F935D4D7792794A0 /* MKRingProgressView-dummy.m */; };
+		C26FA45024BD93C827C942A485396D69 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		E325BCB1605341E3A4766AA0BBD254EE /* MKGradientGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FDB76FEE1DB888D32408D9A270CCD0B /* MKGradientGenerator.swift */; };
+		E7D92C5E0F4F15DD12DAEC2869F3E159 /* Pods-Circles-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF1DB8F67D3B6329F0298C9F8F0FAA5 /* Pods-Circles-dummy.m */; };
+		F885D968D2A53A848D24EFF1B1E38A87 /* MKRingProgressView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CD3F202A4AB98A71BFDC433A2A9F52E8 /* MKRingProgressView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC59F52EF5B67FA74B56E78E8EFDD01B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB34D9D6318E23B9B54B7F408106A1BE;
+			remoteInfo = MKRingProgressView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		13A1105568085D3248DFACD3B2A83C90 /* Pods_Circles.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Circles.framework; path = "Pods-Circles.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A80A5386BAE68E4EAB6F3A7C82B92AB /* Pods-Circles.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Circles.modulemap"; sourceTree = "<group>"; };
+		1C5C5D3F60C1A4B720E81FA83A3AA4BC /* MKRingProgressView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MKRingProgressView.modulemap; sourceTree = "<group>"; };
+		25875B17B705E508B8BB4823937EED35 /* Pods-Circles-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Circles-acknowledgements.plist"; sourceTree = "<group>"; };
+		314569102C488FF20C64BBC3FCD22206 /* Pods-Circles-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Circles-umbrella.h"; sourceTree = "<group>"; };
+		389949546D73264A62EE59CE4F696363 /* Pods-Circles.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Circles.release.xcconfig"; sourceTree = "<group>"; };
+		4DFFCCC106F911D863470DDA52516AE2 /* MKRingProgressView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MKRingProgressView.xcconfig; sourceTree = "<group>"; };
+		57B968C7BDAE5D215B3EEC84B2B26DAE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		706FD521A542CDFFFFFA9939FD00E612 /* Pods-Circles-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Circles-acknowledgements.markdown"; sourceTree = "<group>"; };
+		74AAFB369B5B81FEAB58AAA485F225B7 /* MKRingProgressView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MKRingProgressView.framework; path = MKRingProgressView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		919BE8FB3EF151C7404FE0E365F69C63 /* Pods-Circles-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Circles-resources.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9FDB76FEE1DB888D32408D9A270CCD0B /* MKGradientGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MKGradientGenerator.swift; path = MKRingProgressView/MKGradientGenerator.swift; sourceTree = "<group>"; };
+		A9DFC86D33C058A9D78C817F01C22C68 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC3C4175C91F0A1DD1400180C430EE41 /* MKRingProgressView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MKRingProgressView-prefix.pch"; sourceTree = "<group>"; };
+		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		BEF1DB8F67D3B6329F0298C9F8F0FAA5 /* Pods-Circles-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Circles-dummy.m"; sourceTree = "<group>"; };
+		C8D01CBA495590D1F935D4D7792794A0 /* MKRingProgressView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MKRingProgressView-dummy.m"; sourceTree = "<group>"; };
+		CD3F202A4AB98A71BFDC433A2A9F52E8 /* MKRingProgressView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MKRingProgressView-umbrella.h"; sourceTree = "<group>"; };
+		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DB533DC3AC1F59D72F4AC31AA6EA11F0 /* Pods-Circles.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Circles.debug.xcconfig"; sourceTree = "<group>"; };
+		EC7792C649870B308286D6253F25FDAD /* Pods-Circles-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Circles-frameworks.sh"; sourceTree = "<group>"; };
+		F1C67A26B418CC889344A12A1131C7BD /* MKRingProgressView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MKRingProgressView.swift; path = MKRingProgressView/MKRingProgressView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9BC03D371A8054B88B7E3B540ACF5D1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C26FA45024BD93C827C942A485396D69 /* Foundation.framework in Frameworks */,
+				1AFD8402A99F9C3BA0110EA4E61ADEF5 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A45ABF370ED494D98FA405C386511312 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5175977DA8C723FA04FCA4248841095A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2009D24B6F4CC94291BB159DBF8A34BE /* MKRingProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				9FDB76FEE1DB888D32408D9A270CCD0B /* MKGradientGenerator.swift */,
+				F1C67A26B418CC889344A12A1131C7BD /* MKRingProgressView.swift */,
+				C6942E7B937B2785FC29347085009229 /* Support Files */,
+			);
+			name = MKRingProgressView;
+			path = MKRingProgressView;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				438B396F6B4147076630CAEFE34282C1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
+				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5CCE64CDD0E8E00ABC477FE5C276516F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2009D24B6F4CC94291BB159DBF8A34BE /* MKRingProgressView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				5CCE64CDD0E8E00ABC477FE5C276516F /* Pods */,
+				815C11F388D2DCEF22075C7F90FC8AB1 /* Products */,
+				D043577AAD11CA601BDCC1217602D67A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		815C11F388D2DCEF22075C7F90FC8AB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				74AAFB369B5B81FEAB58AAA485F225B7 /* MKRingProgressView.framework */,
+				13A1105568085D3248DFACD3B2A83C90 /* Pods_Circles.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B20884FB7E0AED351D306F356FE570B8 /* Pods-Circles */ = {
+			isa = PBXGroup;
+			children = (
+				57B968C7BDAE5D215B3EEC84B2B26DAE /* Info.plist */,
+				1A80A5386BAE68E4EAB6F3A7C82B92AB /* Pods-Circles.modulemap */,
+				706FD521A542CDFFFFFA9939FD00E612 /* Pods-Circles-acknowledgements.markdown */,
+				25875B17B705E508B8BB4823937EED35 /* Pods-Circles-acknowledgements.plist */,
+				BEF1DB8F67D3B6329F0298C9F8F0FAA5 /* Pods-Circles-dummy.m */,
+				EC7792C649870B308286D6253F25FDAD /* Pods-Circles-frameworks.sh */,
+				919BE8FB3EF151C7404FE0E365F69C63 /* Pods-Circles-resources.sh */,
+				314569102C488FF20C64BBC3FCD22206 /* Pods-Circles-umbrella.h */,
+				DB533DC3AC1F59D72F4AC31AA6EA11F0 /* Pods-Circles.debug.xcconfig */,
+				389949546D73264A62EE59CE4F696363 /* Pods-Circles.release.xcconfig */,
+			);
+			name = "Pods-Circles";
+			path = "Target Support Files/Pods-Circles";
+			sourceTree = "<group>";
+		};
+		C6942E7B937B2785FC29347085009229 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9DFC86D33C058A9D78C817F01C22C68 /* Info.plist */,
+				1C5C5D3F60C1A4B720E81FA83A3AA4BC /* MKRingProgressView.modulemap */,
+				4DFFCCC106F911D863470DDA52516AE2 /* MKRingProgressView.xcconfig */,
+				C8D01CBA495590D1F935D4D7792794A0 /* MKRingProgressView-dummy.m */,
+				AC3C4175C91F0A1DD1400180C430EE41 /* MKRingProgressView-prefix.pch */,
+				CD3F202A4AB98A71BFDC433A2A9F52E8 /* MKRingProgressView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MKRingProgressView";
+			sourceTree = "<group>";
+		};
+		D043577AAD11CA601BDCC1217602D67A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B20884FB7E0AED351D306F356FE570B8 /* Pods-Circles */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		56E1F20092F46373A00ED45E2536E0FA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F885D968D2A53A848D24EFF1B1E38A87 /* MKRingProgressView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B7091926022AB1B6407E970192674A1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C0BAD0FF7DC5A01B5121C632FF88E44 /* Pods-Circles-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		CB34D9D6318E23B9B54B7F408106A1BE /* MKRingProgressView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43422D8B74A5ADB213535D72F0DBC499 /* Build configuration list for PBXNativeTarget "MKRingProgressView" */;
+			buildPhases = (
+				48C1CDF278B1617C9FC791D2C5A65F47 /* Sources */,
+				9BC03D371A8054B88B7E3B540ACF5D1D /* Frameworks */,
+				56E1F20092F46373A00ED45E2536E0FA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MKRingProgressView;
+			productName = MKRingProgressView;
+			productReference = 74AAFB369B5B81FEAB58AAA485F225B7 /* MKRingProgressView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FA15ED56DE45B5BB9A7A58E14A440958 /* Pods-Circles */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCC62A6D2684AD92960903BDF8E976A3 /* Build configuration list for PBXNativeTarget "Pods-Circles" */;
+			buildPhases = (
+				2215A72FADC6667E608A853A78C0F910 /* Sources */,
+				A45ABF370ED494D98FA405C386511312 /* Frameworks */,
+				6B7091926022AB1B6407E970192674A1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80116D5606C4446AD4DA98FFA3B18736 /* PBXTargetDependency */,
+			);
+			name = "Pods-Circles";
+			productName = "Pods-Circles";
+			productReference = 13A1105568085D3248DFACD3B2A83C90 /* Pods_Circles.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 815C11F388D2DCEF22075C7F90FC8AB1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB34D9D6318E23B9B54B7F408106A1BE /* MKRingProgressView */,
+				FA15ED56DE45B5BB9A7A58E14A440958 /* Pods-Circles */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2215A72FADC6667E608A853A78C0F910 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7D92C5E0F4F15DD12DAEC2869F3E159 /* Pods-Circles-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48C1CDF278B1617C9FC791D2C5A65F47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E325BCB1605341E3A4766AA0BBD254EE /* MKGradientGenerator.swift in Sources */,
+				BD381550C3C1079B42A2A11F6DD0019F /* MKRingProgressView-dummy.m in Sources */,
+				0598DA96FC09E118A4D16659C0666659 /* MKRingProgressView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		80116D5606C4446AD4DA98FFA3B18736 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MKRingProgressView;
+			target = CB34D9D6318E23B9B54B7F408106A1BE /* MKRingProgressView */;
+			targetProxy = BC59F52EF5B67FA74B56E78E8EFDD01B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		53A8C58A3C010BF9D089678DCCD80A46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB533DC3AC1F59D72F4AC31AA6EA11F0 /* Pods-Circles.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Circles/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Circles/Pods-Circles.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5DC0083F57E9AB706B46C5B5D73B38D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		66021BE1C9B396825C6D42DE5C288AA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DFFCCC106F911D863470DDA52516AE2 /* MKRingProgressView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MKRingProgressView/MKRingProgressView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MKRingProgressView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MKRingProgressView/MKRingProgressView.modulemap";
+				PRODUCT_MODULE_NAME = MKRingProgressView;
+				PRODUCT_NAME = MKRingProgressView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7C3E51A276F07B010C4867B961B3E4BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 389949546D73264A62EE59CE4F696363 /* Pods-Circles.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Circles/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Circles/Pods-Circles.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8A69E8C1DB0C7D273ABE8976E6236276 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DFFCCC106F911D863470DDA52516AE2 /* MKRingProgressView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MKRingProgressView/MKRingProgressView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MKRingProgressView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MKRingProgressView/MKRingProgressView.modulemap";
+				PRODUCT_MODULE_NAME = MKRingProgressView;
+				PRODUCT_NAME = MKRingProgressView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AEEA80476F98EB645C4DD53EB2BB6D88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DC0083F57E9AB706B46C5B5D73B38D8 /* Debug */,
+				AEEA80476F98EB645C4DD53EB2BB6D88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43422D8B74A5ADB213535D72F0DBC499 /* Build configuration list for PBXNativeTarget "MKRingProgressView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66021BE1C9B396825C6D42DE5C288AA9 /* Debug */,
+				8A69E8C1DB0C7D273ABE8976E6236276 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCC62A6D2684AD92960903BDF8E976A3 /* Build configuration list for PBXNativeTarget "Pods-Circles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53A8C58A3C010BF9D089678DCCD80A46 /* Debug */,
+				7C3E51A276F07B010C4867B961B3E4BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
